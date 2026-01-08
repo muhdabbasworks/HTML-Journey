@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project : 01</title>
+</head>
+<body>
+<header>
+
+    <!-- Header -->
+    <h1>Student Accademic Information Page.</h1>
+    <p>It's a Webpage in HTML which shows Student Information in a clean and organized style.</p>
+</header>
+
+    <!-- Main -->
+<main>
+    <table>
+        <caption>Student Information.</caption>
+ 
+        <!-- Table Head -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Grade</th>
+                <th>Group</th>
+            </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+
+            <tr>
+                <td>John</td>
+                <td>10<sup>th</sup></td>
+                <td>Computer</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+        <h2>About subjects</h2>
+
+    <ul>
+        <li>Computer Science
+            <ul>
+                <li>Theory + Practicle</li>
+                <li>Grade A+</li>
+            </ul> 
+        </li>
+
+        <li>Maths
+            <ul>
+                <li>Theory</li>
+                <li>Grade B</li>
+            </ul>
+        </li>
+
+        <li>English
+            <ul> 
+                <li>Conversation</li>
+                <li>Grade A</li> </ul> </li>
+            </ul>
+        </li>
+    </ul>
+
+        <h3>Key overview of the above Informations.</h3>
+
+        <ul>
+            <li>The above Informations about the student's subjects:</li>
+            <li>1st row represent the name of the subject.</li>
+            <li>2nd row represent the type of studies.</li>
+            <li>3rd row represent the achieved Grade in the subject.</li>
+        </ul>
+
+    <hr>
+
+        <h3>Weekly Academic Schedule.</h3>
+        <ul>
+            <li>
+                For Compulsory subjects (eg. Cs, Maths, and Engineering).
+            <ul>
+                <li>Take 4 classes per week.</li>
+                <li>Each class is 1.5 hours.</li>
+            </ul>
+        </li>
+
+        <li>
+            For Selective subjects.
+            <ul>
+                <li>Take 2 classes per week.</li>
+                <li>Each class is 1 hour.</li>
+            </ul>
+        </li>
+    </ul>
+
+
+    
+        <hr>
+        <h4>Registration Section.</h4>
+
+    <form action="t.php">
+        Name. <input type="text" placeholder="Enter Your Full Name..." required>
+
+        Password. <input type="password" placeholder="Enter Password.." minlength="8" required>
+
+    <br>
+
+        <label for="age">Age:</label>
+            <input id="age" name="age" type="number" min="15" required>
+
+        <label for="class9">
+            <input type="radio" value="class IX" name="class" id="class9" required> Grade 9<sup>th</sup>
+        </label>
+
+        <label for="class10">
+            <input type="radio" value="class X" name="class" id="class10" required> Grade 10<sup>th</sup>
+        </label>
+
+    <br>
+
+        <label for="physics" >
+            <input type="checkbox" value="subject1" name="subject" id="physics"> 
+            Physics
+        </label>
+
+        <label for="computer">
+            <input type="checkbox" value="subject2" name="subject" id="computer"> 
+            Computer Science
+        </label>
+
+        <label for="biology">
+            <input type="checkbox" value="subject3" name="subject" id="biology"> 
+            Biology
+        </label>
+
+        <label for="106">
+            <input type="checkbox" value="subject4" name="subject" id="106"> 
+            Chemistry
+        </label>
+
+        <br>
+
+       City.<select name="city" id="city" required>
+        <option value="" selected disabled>Select your City.</option>
+                <option value="Peshawar">Peshawar </option> 
+                <option value="Islamabad">Islamabad</option>
+                <option value="Lahore">Lahore</option>
+            </select>
+
+    <br>
+
+        Feedback. <textarea name="feedback" rows="4" id="107" placeholder="please give us your valueable feedback."></textarea>
+        <br>
+        <input type="submit" value="submit" name="submit button" id="108">
+ 
+        
+
+    </form>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kcfs1-ryKWE?si=DpKfNrWik04iU49W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    
+
+</main>
+
+    
+
+    <!-- Footer -->
+<footer>
+        <a href="https://github.com/muhdabbasworks" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUJGr5H7nLQhafO8ot5uMBLwiIgBXkB6862A&s" alt="Student Github Profile" width="50">
+        </a>
+    <br>
+
+        <a href="page2.html">2</a>
+        
+</footer>
+    
+</body>
+</html>
